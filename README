@@ -1,7 +1,7 @@
 Cucumber is an open source tool that supports Behavior Driven Development (BDD) framework.
 It provides the facility to write tests in a human readable language called Gherkin. 
 
-PreRequisites :
+###PreRequisites :
 1.setup JDK on your system
 2.Install Eclipse
 3.Install Cucumber
@@ -10,22 +10,22 @@ PreRequisites :
 4.Setup Maven project. https://maven.apache.org/download.cgi
 5.Add dependency for Selenium and Cucumber in "pom.xml". Refer to https://mvnrepository.com/
 
-Implementation:
+###Implementation:
 1.Create the feature file
 2.Create Testrunner class inorder to execute the feature file.
 3.Create step definition files [ in my program step definitions are under SeleniumCode package]
 
-Execution:
+###Execution:
 To execute the code, right click test.feature file → Run As → Cucumber feature
 
-Create HTML Reports using Extent-Reports:
+###Create HTML Reports using Extent-Reports:
 1.Add dependencies which are 
 	Cucumber-extentsreport
 	extentreports
 2.Add config.xml file
 3.Modify testrunner class
 
-Command line execution:
+###Command line execution:
 Open the terminal in your system and navigate to your project directory.
 Since we have already added a Maven dependency through pom.xml, we can execute the test using the simple command mvn test. 
 In case you have a large number of feature files added to your project, 
